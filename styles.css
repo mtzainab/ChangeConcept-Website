@@ -65,6 +65,21 @@ h1.title{
 .navbar .navbar_items ul li a{
     color: #fff;
 }
+#mobile {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+@media screen and (max-width: 780px){
+    #mobile{
+        display: block !important;
+        
+    }
+    #desktop{
+        display: none !important;
+    }
+}
 
 /* Banner image */
 .banner_image{
